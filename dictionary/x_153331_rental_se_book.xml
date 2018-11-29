@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Book" max_length="40" name="x_153331_rental_se_book" type="collection">
+        <element display="true" label="Tittle" mandatory="true" max_length="160" name="tittle" type="string"/>
+        <element label="Author" max_length="160" name="u_author" type="string_full_utf8"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Action" value="action"/>
+                <element inactive_on_update="false" label="Adventure" value="adventure"/>
+                <element inactive_on_update="false" label="Biography" value="biography"/>
+                <element inactive_on_update="false" label="Cars" value="cars"/>
+                <element inactive_on_update="false" label="Children" value="children"/>
+                <element inactive_on_update="false" label="Computers" value="computers"/>
+                <element inactive_on_update="false" label="Crafts" value="crafts"/>
+                <element inactive_on_update="false" label="Culture" value="culture"/>
+                <element inactive_on_update="false" label="Family" value="family"/>
+                <element inactive_on_update="false" label="Games" value="games"/>
+                <element inactive_on_update="false" label="How to" value="how_to"/>
+                <element inactive_on_update="false" label="Literarute" value="literature"/>
+                <element inactive_on_update="false" label="Psychology" value="psychology"/>
+            </choice>
+        </element>
+    </element>
+</database>
